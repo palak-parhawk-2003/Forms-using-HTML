@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        /* .shadow
+        {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 20px;
+            box-shadow: inset 7px 0px 10px red;
+        }
+        .img{
+            width: 400px;
+            height: 300px;
+            opacity: 1;
+            display: none;
+            /* filter:brightness(150%) blur(2px); */
+        /* } */
+         .cont{
+            font-size: 2rem;
+            /* border-bottom: 3px dashed black;
+            color:fuchsia;
+            text-transform: capitalize;
+            text-shadow: 5px 10px 3px chocolate; */
+            /* font-family: 'Dancing Script', cursive, sans-serif; */
+        } 
+        main{
+            width: 100vw;
+            height: 100vh;
+            /* background:linear-gradient(90deg,red 50%,black,blue,green); */
+            /* background: radial-gradient(red,blue,green,pink,gray); */
+            background-color: rgba(236, 239, 248,1);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .clock{
+            width: 500px;
+            height: 500px;
+            background-color: teal;
+            border-radius: 50%;
+            border: 0px solid teal;
+            box-shadow: 5px 10px 10px  black,
+             -5px -10px 10px  rgb(255, 255, 255),
+             inset -5px -10px 10px  rgb(255, 255, 255),
+             inset 5px 10px 10px  rgb(44, 44, 44)
+        }
+        .input{
+            box-sizing: border-box;
+            outline: none;
+            color: rgb(151, 149, 149);
+            width: 400px;
+            height: 50px;
+            font-size: 1.4rem;
+            padding: 0 10px;
+            border-radius: 50px;
+            border: none;
+            background-color: rgba(236, 239, 248,1);
+            box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.212),
+            inset -10px -5px 5px rgba(255, 255, 255, 0.555);
+        }
+        .ckb{
+            -webkit-appearance: none;
+            background-color: rgb(136, 136, 136);
+            width: 600px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+            border-radius: 50px;
+            transition: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        .ckb::before{
+            content: '';
+            width: 100px;
+            border-radius: 50%;
+            height: 100px;
+            background-color: white;
+            transition: 1s;
+            transition-timing-function: ease-in-out;
+            position: absolute;
+            left: 30%;
+        }
+        .ckb:checked {        
+            background-color: greenyellow;
+
+        }
+        .ckb:checked::before{
+            left: 63%;
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+   <main>
+       <!-- <div class="clock"></div> -->
+       <input class="input" type="text">
+       <input class="ckb" type="checkbox" id="lab">
+   </main>
+    <!-- <div class="shadow"></div>
+    <img src="Landing Page Background.png" class="img">-->
+    <!-- <div class="cont">This is a text</div>  -->
+</body>
+</html>

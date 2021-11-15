@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .shadow
+        {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 20px;
+            box-shadow: inset 7px 0px 10px red;
+        }
+        .img{
+            width: 400px;
+            height: 300px;
+            opacity: 1;
+            display: none;
+             filter:brightness(150%) blur(2px); 
+         }
+         .cont{
+            font-size: 2rem;
+            border-bottom: 3px dashed black;
+            color:fuchsia;
+            text-transform: capitalize;
+            text-shadow: 5px 10px 3px chocolate; 
+            font-family: 'Dancing Script', cursive, sans-serif; 
+        } 
+        main{
+            width: 100vw;
+            height: 100vh;
+            background:linear-gradient(90deg,red 50%,black,blue,green); 
+            background: radial-gradient(red,blue,green,pink,gray); 
+        }
+        </style>
+</head>
+<body>
+    <main> 
+         <div class="shadow"></div>
+        <img src="Landing Page Background.png" class="img">
+        <div class="cont">This is a text</div> 
+    </main>
+</body>
+</html>

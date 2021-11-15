@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Campus Selection Form</h1>
+    <br>
+    <details>
+        <summary>hello world</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione fuga eos excepturi mollitia fugit, explicabo placeat ab expedita natus omnis eius veniam laboriosam! Aut eius illum expedita minus molestias qui.</p>
+        
+    </details>
+    <bdo dir="rtl">This is a bdo text</bdo>
+    <kbd>Ctrl</kbd>+<kbd>C</kbd>
+    <fieldset>
+        <legend>This is a form</legend>
+    <form method="post" action="method.php">
+        Enter your Name: <input type="text" name="username" required="" placeholder="Enter your name"><br>
+        <!-- Enter your School: <input type="text" placeholder="Enter your School"><br>
+        Enter your Phone number: <input type="text" placeholder="Enter your Phone number"><br>
+        Enter your Address: <input type="text" placeholder="Enter your Address"><br>
+        Enter your Board Result: <input type="text" placeholder="Enter here"><br>
+        Enter your Maths marks: <input type="text" placeholder="Enter here"><br>
+        Enter your Physics marks: <input type="text" placeholder="Enter here"><br>
+        Enter your Chemistry marks: <input type="text" placeholder="Enter here"><br> -->
+            <label for="emp_name_3" class="caps"> Select Employee</label>
+            <input list="emp_name_list" required="" name="emp_name" id="emp_name_3">
+            
+            <datalist id="emp_name_list">
+                <option>Bmw</option>
+           <option>lambo</option>
+           <option>maruti</option>
+           <option>hunday</option>
+            </datalist>
+            <br>
+       <label for="male">Male:</label>  <input id="male" value="male" type="radio" name="gen"> Female: <input type="radio" value="female" name="gen">
+       <br>
+       <select name="select">
+           <option>Bmw</option>
+           <option>lambo</option>
+           <option>maruti</option>
+           <option>hunday</option>
+       </select>
+       <br>
+       <input type="submit" >
+       <input type="reset">
+    </form>
+</fieldset>
+</body>
+</html>

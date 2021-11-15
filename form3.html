@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhro</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box ;
+            padding: 0;
+        }
+        /* body{
+            background: url('./images/banners3.png') no-repeat;
+            background-size: cover;
+        
+        } */
+        .box{
+            width: 200px;
+            height: 200px;
+            background: url('./images/banners2.png') no-repeat;
+            padding: 10px 20px;
+            background-size: cover;
+            border: 5px solid rgb(248, 90, 28);
+            margin: 30px 100px;
+            
+        }
+        main{
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+        .video{
+            width: 99vw;
+            height: 99vh;
+        }
+        .cont{
+            width: 100vw;
+            height: 400vh;
+            background-color: rgba(0, 0, 0, 0.452);
+            position: absolute;
+            color: white;
+        }
+        .content{
+            position: relative;
+            width: 90%;
+            background-color: aqua;
+            height: 800px;
+        }
+        .boxes{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .boxes:nth-child(2n)
+        {
+            background-color: blueviolet;
+        }
+        .boxes:nth-child(2){
+            /* position: fixed; */
+            /* position: static; */
+            /* position: sticky; */
+            top: 400px;
+            left: 100px;
+            /* position: absolute; */
+            /* position: relative; */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <video class="video" muted autoplay>
+            <source src="./video.mp4" type="video/mp4">
+            
+        </video>
+        <div class="cont">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis, dolor corrupti nesciunt nam deleniti ipsum, mollitia velit nisi omnis sunt laborum ullam eligendi modi? Cum ipsa voluptatibus asperiores nihil!
+            <div class="box">
+            </div> -->
+            <div class="content">
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+            </div>
+            
+        </div>
+        
+        
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
